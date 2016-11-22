@@ -23,7 +23,7 @@ class PassGenerator {
         // Free Child Guest
         let today = Date()
         do {
-            if let birthdate = try Date(dateStringyyyyMMdd: "2011/11/23") {
+            if let birthdate = try Date(dateStringyyyyMMdd: "2011/11/23") {     // CHANGE THIS DATE IN ORDER TO VERIFY AGE CHECKING
                 print("Guest is less than 5 years old: \(today.isLessThan5YearsOld(birthdate: birthdate))")
                 
                 do {
