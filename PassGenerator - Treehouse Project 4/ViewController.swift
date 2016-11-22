@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Create a pass generator and run tests
+        let pg = PassGenerator()
+        pg.generateAndRunTests()
     }
 
     override func didReceiveMemoryWarning() {

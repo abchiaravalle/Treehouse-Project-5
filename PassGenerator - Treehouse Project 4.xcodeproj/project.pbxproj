@@ -12,6 +12,8 @@
 		A887F1811DE507960034B3A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A887F17F1DE507960034B3A0 /* Main.storyboard */; };
 		A887F1831DE507960034B3A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A887F1821DE507960034B3A0 /* Assets.xcassets */; };
 		A887F1861DE507960034B3A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A887F1841DE507960034B3A0 /* LaunchScreen.storyboard */; };
+		A887F18E1DE507B10034B3A0 /* Entrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887F18D1DE507B10034B3A0 /* Entrants.swift */; };
+		A887F1901DE509090034B3A0 /* PassGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887F18F1DE509090034B3A0 /* PassGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A887F1821DE507960034B3A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A887F1851DE507960034B3A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A887F1871DE507960034B3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A887F18D1DE507B10034B3A0 /* Entrants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entrants.swift; sourceTree = "<group>"; };
+		A887F18F1DE509090034B3A0 /* PassGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				A887F17B1DE507960034B3A0 /* AppDelegate.swift */,
 				A887F17D1DE507960034B3A0 /* ViewController.swift */,
+				A887F18D1DE507B10034B3A0 /* Entrants.swift */,
+				A887F18F1DE509090034B3A0 /* PassGenerator.swift */,
 				A887F17F1DE507960034B3A0 /* Main.storyboard */,
 				A887F1821DE507960034B3A0 /* Assets.xcassets */,
 				A887F1841DE507960034B3A0 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A887F1901DE509090034B3A0 /* PassGenerator.swift in Sources */,
 				A887F17E1DE507960034B3A0 /* ViewController.swift in Sources */,
+				A887F18E1DE507B10034B3A0 /* Entrants.swift in Sources */,
 				A887F17C1DE507960034B3A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
