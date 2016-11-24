@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         
         // Create a pass generator and run tests
         let pg = PassGenerator()
-        pg.generateAndRunTests()
+        pg.runPlugValueTests()
     }
 
     override func didReceiveMemoryWarning() {

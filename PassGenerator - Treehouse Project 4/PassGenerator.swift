@@ -11,57 +11,72 @@ import Foundation
 // MARK: PassGenerator: Creates passes. Right now it is populated with lots of test guests in order to showcase the functionality of each one.
 
 class PassGenerator {
-    func generateAndRunTests() {
-        // Classic Guest
-        let classicGuest = ClassicGuest()
-        swipe(guest: classicGuest)
+    func runPlugValueTests() {
+        // MARK: Plug Values
+        // Uncomment the below entries to test the types of entrants
         
-        // VIP Guest
-        let vipGuest = VIPGuest()
-        swipe(guest: vipGuest)
-        
-        // Free Child Guest
-        let today = Date()
-        do {
-            if let birthdate = try Date(dateStringyyyyMMdd: "2011/11/23") {     // CHANGE THIS DATE IN ORDER TO VERIFY AGE CHECKING
-                print("Guest is less than 5 years old: \(today.isLessThan5YearsOld(birthdate: birthdate))")
-                
-                do {
-                    print("Birthdate of \(birthdate) entered to apply for a free child guest pass. Error displayed below if guest is too old.")
-                    
-                    if let freeChildGuest = try FreeChildGuest(birthdate: birthdate) {
-                        swipe(guest: freeChildGuest)
-                    }
-                } catch {
-                    print(error)
-                }
-                
-                print("\n")
-            }
-        }
-        catch {
-            print(error)
-        }
+        //        // Classic Guest
+        //        let classicGuest = ClassicGuest()
+        //        swipe(guest: classicGuest)
         
         
-        // Define personal info for employees
-        let info = PersonalInfo(firstName: "Adam", lastName: "Chiaravalle", streetAddress: "200 Acme Lane", city: "Nashville", state: "TN", zipCode: 37127)
         
-        // Food Services Employee
-        let foodServicesEmployee = FoodServicesEmployee(info: info)
-        swipe(guest: foodServicesEmployee)
+        //        // VIP Guest
+        //        let vipGuest = VIPGuest()
+        //        swipe(guest: vipGuest)
         
-        // Ride Services Employee
-        let rideServicesEmployee = RideServicesEmployee(info: info)
-        swipe(guest: rideServicesEmployee)
         
-        // Maintenance Employee
-        let maintenanceEmployee = MaintenanceEmployee(info: info)
-        swipe(guest: maintenanceEmployee)
         
-        // Manager Employee
-        let managerEmployee = ManagerEmployee(info: info)
-        swipe(guest: managerEmployee)
+        //        // Free Child Guest
+        //        let today = Date()
+        //        do {
+        //            if let birthdate = try Date(dateStringyyyyMMdd: "2011/11/23") {     // CHANGE THIS DATE IN ORDER TO VERIFY AGE CHECKING
+        //                print("Guest is less than 5 years old: \(today.isLessThan5YearsOld(birthdate: birthdate))")
+        //
+        //                do {
+        //                    print("Birthdate of \(birthdate) entered to apply for a free child guest pass. Error displayed below if guest is too old.")
+        //
+        //                    if let freeChildGuest = try FreeChildGuest(birthdate: birthdate) {
+        //                        swipe(guest: freeChildGuest)
+        //                    }
+        //                } catch {
+        //                    print(error)
+        //                }
+        //
+        //                print("\n")
+        //            }
+        //        }
+        //        catch {
+        //            print(error)
+        //        }
+        
+        
+        
+        //        // Food Services Employee
+        //        let info = PersonalInfo(firstName: "John", lastName: "Doe", streetAddress: "200 Acme Lane", city: "Nashville", state: "TN", zipCode: 37127)
+        //        let foodServicesEmployee = FoodServicesEmployee(info: info)
+        //        swipe(guest: foodServicesEmployee)
+        
+        
+        
+        //        // Ride Services Employee
+        //        let info = PersonalInfo(firstName: "John", lastName: "Doe", streetAddress: "200 Acme Lane", city: "Nashville", state: "TN", zipCode: 37127)
+        //        let rideServicesEmployee = RideServicesEmployee(info: info)
+        //        swipe(guest: rideServicesEmployee)
+        
+        
+        
+        //        // Maintenance Employee
+        //        let info = PersonalInfo(firstName: "John", lastName: "Doe", streetAddress: "200 Acme Lane", city: "Nashville", state: "TN", zipCode: 37127)
+        //        let maintenanceEmployee = MaintenanceEmployee(info: info)
+        //        swipe(guest: maintenanceEmployee)
+        
+        
+        
+        //        // Manager Employee
+        //        let info = PersonalInfo(firstName: "John", lastName: "Doe", streetAddress: "200 Acme Lane", city: "Nashville", state: "TN", zipCode: 37127)
+        //        let managerEmployee = ManagerEmployee(info: info)
+        //        swipe(guest: managerEmployee)
     }
     
     func swipe(guest: EntrantType) {
