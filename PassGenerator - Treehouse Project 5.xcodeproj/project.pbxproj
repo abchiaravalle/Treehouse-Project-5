@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A887F1781DE507960034B3A0 /* PassGenerator - Treehouse Project 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PassGenerator - Treehouse Project 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A887F1781DE507960034B3A0 /* PassGenerator - Treehouse Project 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PassGenerator - Treehouse Project 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A887F17B1DE507960034B3A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A887F17D1DE507960034B3A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A887F1801DE507960034B3A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		A887F16F1DE507960034B3A0 = {
 			isa = PBXGroup;
 			children = (
-				A887F17A1DE507960034B3A0 /* PassGenerator - Treehouse Project 4 */,
+				A887F17A1DE507960034B3A0 /* PassGenerator - Treehouse Project 5 */,
 				A887F1791DE507960034B3A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		A887F1791DE507960034B3A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A887F1781DE507960034B3A0 /* PassGenerator - Treehouse Project 4.app */,
+				A887F1781DE507960034B3A0 /* PassGenerator - Treehouse Project 5.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A887F17A1DE507960034B3A0 /* PassGenerator - Treehouse Project 4 */ = {
+		A887F17A1DE507960034B3A0 /* PassGenerator - Treehouse Project 5 */ = {
 			isa = PBXGroup;
 			children = (
 				A887F17B1DE507960034B3A0 /* AppDelegate.swift */,
@@ -67,15 +67,16 @@
 				A887F1841DE507960034B3A0 /* LaunchScreen.storyboard */,
 				A887F1871DE507960034B3A0 /* Info.plist */,
 			);
+			name = "PassGenerator - Treehouse Project 5";
 			path = "PassGenerator - Treehouse Project 4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A887F1771DE507960034B3A0 /* PassGenerator - Treehouse Project 4 */ = {
+		A887F1771DE507960034B3A0 /* PassGenerator - Treehouse Project 5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A887F18A1DE507960034B3A0 /* Build configuration list for PBXNativeTarget "PassGenerator - Treehouse Project 4" */;
+			buildConfigurationList = A887F18A1DE507960034B3A0 /* Build configuration list for PBXNativeTarget "PassGenerator - Treehouse Project 5" */;
 			buildPhases = (
 				A887F1741DE507960034B3A0 /* Sources */,
 				A887F1751DE507960034B3A0 /* Frameworks */,
@@ -85,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = "PassGenerator - Treehouse Project 4";
+			name = "PassGenerator - Treehouse Project 5";
 			productName = "PassGenerator - Treehouse Project 4";
-			productReference = A887F1781DE507960034B3A0 /* PassGenerator - Treehouse Project 4.app */;
+			productReference = A887F1781DE507960034B3A0 /* PassGenerator - Treehouse Project 5.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A887F1731DE507960034B3A0 /* Build configuration list for PBXProject "PassGenerator - Treehouse Project 4" */;
+			buildConfigurationList = A887F1731DE507960034B3A0 /* Build configuration list for PBXProject "PassGenerator - Treehouse Project 5" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A887F1771DE507960034B3A0 /* PassGenerator - Treehouse Project 4 */,
+				A887F1771DE507960034B3A0 /* PassGenerator - Treehouse Project 5 */,
 			);
 		};
 /* End PBXProject section */
@@ -292,7 +293,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A887F1731DE507960034B3A0 /* Build configuration list for PBXProject "PassGenerator - Treehouse Project 4" */ = {
+		A887F1731DE507960034B3A0 /* Build configuration list for PBXProject "PassGenerator - Treehouse Project 5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A887F1881DE507960034B3A0 /* Debug */,
@@ -301,13 +302,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A887F18A1DE507960034B3A0 /* Build configuration list for PBXNativeTarget "PassGenerator - Treehouse Project 4" */ = {
+		A887F18A1DE507960034B3A0 /* Build configuration list for PBXNativeTarget "PassGenerator - Treehouse Project 5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A887F18B1DE507960034B3A0 /* Debug */,
 				A887F18C1DE507960034B3A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

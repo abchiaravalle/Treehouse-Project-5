@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A887F1771DE507960034B3A0"
-               BuildableName = "PassGenerator - Treehouse Project 4.app"
-               BlueprintName = "PassGenerator - Treehouse Project 4"
-               ReferencedContainer = "container:PassGenerator - Treehouse Project 4.xcodeproj">
+               BuildableName = "PassGenerator - Treehouse Project 5.app"
+               BlueprintName = "PassGenerator - Treehouse Project 5"
+               ReferencedContainer = "container:PassGenerator - Treehouse Project 5.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A887F1771DE507960034B3A0"
-            BuildableName = "PassGenerator - Treehouse Project 4.app"
-            BlueprintName = "PassGenerator - Treehouse Project 4"
-            ReferencedContainer = "container:PassGenerator - Treehouse Project 4.xcodeproj">
+            BuildableName = "PassGenerator - Treehouse Project 5.app"
+            BlueprintName = "PassGenerator - Treehouse Project 5"
+            ReferencedContainer = "container:PassGenerator - Treehouse Project 5.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A887F1771DE507960034B3A0"
-            BuildableName = "PassGenerator - Treehouse Project 4.app"
-            BlueprintName = "PassGenerator - Treehouse Project 4"
-            ReferencedContainer = "container:PassGenerator - Treehouse Project 4.xcodeproj">
+            BuildableName = "PassGenerator - Treehouse Project 5.app"
+            BlueprintName = "PassGenerator - Treehouse Project 5"
+            ReferencedContainer = "container:PassGenerator - Treehouse Project 5.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A887F1771DE507960034B3A0"
-            BuildableName = "PassGenerator - Treehouse Project 4.app"
-            BlueprintName = "PassGenerator - Treehouse Project 4"
-            ReferencedContainer = "container:PassGenerator - Treehouse Project 4.xcodeproj">
+            BuildableName = "PassGenerator - Treehouse Project 5.app"
+            BlueprintName = "PassGenerator - Treehouse Project 5"
+            ReferencedContainer = "container:PassGenerator - Treehouse Project 5.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
